@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 80px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 10px;
+	background-color: #dcdcdc;
+	border-bottom: 1px gray #dddddd;
+}
+
+ul {
+	display: inline-block;
+	list-style: none;
+	-webkit-padding-start: 0px;
+	font-size: 0;
+}
+
+li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.padding {
+	padding: 8px 25px 8px 25px;
+}
+
+
+div p {
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+.resultsgraytext {
+	color: gray;
+	font-weight: 400;
+}
+
+.resultsbold {
+	font-weight: 900;
+}
+
+.border {
+	border: 1px lightgray solid;
+	border-radius: 3px;
+}
+
+.bordermid {
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+.searchnav {
+	margin-bottom: 30px;
+}
+
+.logo {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.absolute {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.menupadding {
+	font-size: 18px;
+	padding: 0 6px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.search button {
+	vertical-align: bottom;
+	font-size: 18px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+
+.magglass {
+	height: 100%;
+}
+
+.search {
+	margin-bottom: 30px;
+}
+
+.search input {
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 30px;
+	height: 30px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	padding: 0 5px 0 8px;
+	width: 400px;
+}
